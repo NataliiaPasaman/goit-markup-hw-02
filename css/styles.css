@@ -178,6 +178,10 @@ footer {
     color: var(--bcg-color);
     background-color: var(--accent-color);
 }
+.btn-active {
+    color: var(--bcg-color);
+    background-color: var(--accent-color);
+}
 /* Карточки робіт Портфоліо */
 .title-portfolio {
     visibility: hidden;
