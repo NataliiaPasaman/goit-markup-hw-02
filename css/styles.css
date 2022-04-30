@@ -3,6 +3,7 @@
 --accent-color: #2196F3;
 --title-color: #212121;
 --bcg-color: #FFFFFF;
+--let-spc: 0.03em;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     text-align: left;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--let-spc);
 }
 .logo-nav-word {
     color: #000000;
@@ -91,22 +92,21 @@ body {
 
 /* Секція Переваги */
 .section-title {
-    display: none;
+    visibility: hidden;
 }
 .title-benefits {
     color: var(--title-color);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-align: left;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--let-spc);
 }
 .text-benefits{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-align: left;
-    letter-spacing: 0.03em;}
+    letter-spacing: var(--let-spc);
+}
 
 /* Секція робіт і секція команда */
 .team {
@@ -114,11 +114,10 @@ body {
 }
 .title {
     color: var(--title-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--let-spc);
 }
 .team-title {
     color: var(--title-color);
@@ -126,22 +125,14 @@ body {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--let-spc);
 }
 .position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--let-spc);
 }
-/* .position {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-} */
 .our-team {
     background-color: var(--bcg-color);
 }
@@ -152,11 +143,10 @@ footer {
 .location {
     color: var(--bcg-color);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-align: left;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--let-spc);
 }
 .footer-address > .link-contacts {
     color: rgba(255, 255, 255, 0.6);
@@ -164,15 +154,24 @@ footer {
     font-size: 14px;
     line-height: 1.71;
     text-align: left;
-    letter-spacing: 0.03em;
+    letter-spacing: var(--let-spc);
 }
 /* СТОРІНКА ПОРТФОЛІО 
 Фільтр Галереї - кнопки*/
+.current {
+    color: var(--accent-color);
+}
 
 .btn-filter {
     color: var(--title-color);
     background-color: #F5F4FA;
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: var(--let-spc);
 }
 .btn-filter:hover,
 .btn-filter:focus {
@@ -181,13 +180,17 @@ footer {
 }
 /* Карточки робіт Портфоліо */
 .title-portfolio {
-    display: none;
+    visibility: hidden;
 }
 .link {
     text-decoration: none;
 }
 .title-work {
     color: var(--title-color);
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+    letter-spacing: 0.06em;
 }
 .title-work:hover,
 .title-work:focus {
@@ -195,4 +198,8 @@ footer {
 }
 .work-card {
     color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: left;
+    letter-spacing: var(--let-spc);
 }
