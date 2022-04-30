@@ -1,0 +1,127 @@
+:root
+{--main-text-color: #757575;
+--accent-color: #2196F3;
+--title-color: #212121;
+--bcg-color: #FFFFFF;
+}
+
+body {
+    color: var(--main-text-color);
+    background-color: var(--bcg-color);
+    font-family: 'Roboto', sans-serif, 'Raleway';
+}
+.item {
+    list-style: none;
+}
+/* Логотип*/
+.logo {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-style: 900px;
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: left;
+    letter-spacing: 3%;
+}
+.logo-nav-word {
+    color: #000000;
+}
+.logo-word {
+    color: var(--bcg-color);
+}
+.logo:hover, 
+.logo:focus {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+/* Хедер*/
+.link-navigation {
+    text-decoration: none;
+    color: var(--title-color);
+}
+.link-navigation:hover,
+.link-navigation:focus {
+    color: var(--accent-color);
+}    
+.link-contacts {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.link-contacts:hover,
+.link-contacts:focus {
+    color: var(--accent-color);
+}
+
+/*Секція Герой*/
+.hero {
+    background-color: #2F303A;
+    color: var(--bcg-color);
+}
+.btn-hero {
+    color: var(--bcg-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* Секція Переваги */
+.section-title {
+    display: none;
+}
+.title-benefits {
+    color: var(--title-color);
+}
+/* Секція робіт і секція команда */
+.team {
+    background-color: #F5F4FA;
+}
+.title {
+    color: var(--title-color);
+}
+.team-title {
+    color: var(--title-color);
+}
+.our-team {
+    background-color: var(--bcg-color);
+}
+/* Футер */
+footer {
+    background-color: #2F303A;
+}
+address {
+    color: var(--bcg-color);
+    font-style: normal;
+}
+.footer-address {
+    font-style: var(--main-text-color);
+}
+/* СТОРІНКА ПОРТФОЛІО 
+Фільтр Галереї - кнопки*/
+
+.btn-filter {
+    color: var(--title-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+    color: var(--bcg-color);
+    background-color: var(--accent-color);
+}
+/* Карточки робіт Портфоліо */
+.title-portfolio {
+    display: none;
+}
+.link {
+    text-decoration: none;
+}
+.title-work {
+    color: var(--title-color);
+}
+.title-work:hover,
+.title-work:focus {
+    color: var(--accent-color);
+}
+.work-card {
+    color: var(--main-text-color);
+}
